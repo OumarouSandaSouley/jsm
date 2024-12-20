@@ -26,7 +26,8 @@
       },
       "permissions": [
         "android.permission.RECORD_AUDIO"
-      ]
+      ],
+      "package": "com.oumarouss.jsm"
     },
     "web": {
       "bundler": "metro",

@@ -34,7 +34,7 @@ This repository contains the code corresponding to the mobile app created in the
 
 This is not an official version of the app crafted by the channel or the website. All credits, creations and brand belong to <a href="https://www.github.com/adrianhajdin"><b>Adrian Hajdin</b></a> by the way of <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b>
 
-<a href="" target="_blank">    <img src="https://img.shields.io/badge/View the Android Build App-black?style=for-the-badge&logoColor=white&logo=expo&color=06B6D4" alt="nativewind" /></a>
+<a href="https://expo.dev/artifacts/eas/mPL9JLmXALPbYd1QvVaWPz.apk" target="_blank">    <img src="https://img.shields.io/badge/Download the Android Build App-black?style=for-the-badge&logoColor=white&logo=expo&color=06B6D4" alt="nativewind" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -42,7 +42,6 @@ Built with React Native Expo for seamless user experiences, React Native Reanima
 this app showcases all the power, features and professionalism of the JavaScript Mastery family.
 
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -79,11 +78,11 @@ this app showcases all the power, features and professionalism of the JavaScript
 
 and many more, including code architecture and reusability 
 
-## <a name="quick-start">🤸 Quick Start</a>
+## <a name="quick-start">🚀 Quick Start for Developers</a>
 
 Follow these steps to set up the project locally on your machine.
 
-**Prerequisites**
+### Prerequisites
 
 Make sure you have the following installed on your machine:
 
@@ -91,29 +90,78 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+### Step-by-Step Guide
 
-```bash
-git clone https://github.com/OumarouSandaSouley/jsm.git
-cd jsm
-```
-**Installation**
+1. **Clone the Repository**
 
-Install the project dependencies using npm:
+   ```bash
+   git clone https://github.com/OumarouSandaSouley/jsm.git
+   cd jsm
+   ```
 
-```bash
-npm install
-```
+2. **Install Dependencies**
 
-**Running the Project**
+   Install the project dependencies using npm:
 
-```bash
-npm start
-```
+   ```bash
+   npm install
+   ```
 
-**Expo Go**
+3. **Set Up Environment Variables**
 
-Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to scan the QR code from Terminal and run.
+   Create a `.env.local` file in the root directory:
+   Add the following environment variables to `.env.local\`:
+
+   ```
+   EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_appwrite_project_id
+   EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_appwrite_database_id
+   EXPO_PUBLIC_APPWRITE_CATEGORY_COLLECTION_ID=your_appwrite_category_collection_id
+   EXPO_PUBLIC_APPWRITE_PROJECTS_COLLECTION_ID=your_appwrite_project_collection_id
+   EXPO_PUBLIC_APPWRITE_C0URSES_COLLECTION_ID=your_appwrite_courses_collection_id
+   EXPO_PUBLIC_APPWRITE_RESSOURCES_COLLECTION_ID=your_appwrite_ressources_collection_id
+   EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+   ```
+
+4. **Run the Project**
+
+   ```bash
+   npm start
+   ```
+
+5. **Expo Go**
+
+   Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to scan the QR code from Terminal to run the application.
+
+### Obtaining Credentials
+
+#### Appwrite Credentials
+
+1. Sign up or log in to your Appwrite account
+2. Create a new project and copy its project ID
+3. Create a new database and copy its ID
+4. Create the following collections: Projects, Courses, Resources, Categories
+5. Set up collection structures as follows:
+
+   - **Courses**: title(string), description(string), category(string), youtubeUrl(URL), githubUrl(URL), ratings(double), image(URL), videoID(string), duration(Integer)
+   - **Projects**: title(string), description(string), category(string), youtubeUrl(URL), banner(URL), technologies(string array)
+   - **Resources**: title(string), description(string), category(string), url(URL), image(URL)
+   - **Categories**: name(string)
+
+#### Clerk Credentials
+
+1. Sign up or log in to your Clerk account
+2. Create a new application or select an existing one
+3. Navigate to the API Keys section in your Clerk dashboard
+4. Copy the Publishable Key
+
+### Additional Resources
+
+- [View Project on GitHub](https://github.com/OumarouSandaSouley/jsm)
+- [Full Documentation](https://github.com/OumarouSandaSouley/jsm/blob/main/README.md)
+
+Contributions from the open-source community are welcome!
+
+
 
 
 ## <a name="screenshots">🕸️ Screenshots</a>
@@ -127,4 +175,4 @@ Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to
 Access the JSM website [here](https://jsmastery.po) <br />
 And the YouTube channel [here](https://www.youtube.com/@javascriptmastery)
 
-
+[Download the Android Build APK](https://expo.dev/artifacts/eas/mPL9JLmXALPbYd1QvVaWPz.apk)
