@@ -44,7 +44,7 @@ const CourseCard: React.FC<{ course: Course }> = ({ course }) => {
         <View style={styles.footer}>
           <View style={styles.ratingContainer}>
             <Ionicons name="star" size={16} color="#FFC107" />
-            <Text style={styles.rating}>{course.ratings.toFixed(1)}</Text>
+            <Text style={styles.rating}>{course.ratings?.toFixed(1)}</Text>
           </View>
           <TouchableOpacity
             style={styles.ctaButton}

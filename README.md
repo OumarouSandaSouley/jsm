@@ -15,6 +15,9 @@
 
    <div align="center">
      This App is the implementation of the  <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube Website channel. <br /> Join the JSM family!
+    </div>   <br /> 
+   <div align="center">
+     <a href="https://expo.dev/artifacts/eas/698pMzRgbYH1KnDDJY7bns.apk" target="_blank">    <img src="https://img.shields.io/badge/Download the Android Build App-black?style=for-the-badge&logoColor=white&logo=expo&color=2324D8" alt="Download the App" /></a>
     </div>
 </div>
 
@@ -34,7 +37,7 @@ This repository contains the code corresponding to the mobile app created in the
 
 This is not an official version of the app crafted by the channel or the website. All credits, creations and brand belong to <a href="https://www.github.com/adrianhajdin"><b>Adrian Hajdin</b></a> by the way of <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b>
 
-<a href="https://expo.dev/artifacts/eas/mPL9JLmXALPbYd1QvVaWPz.apk" target="_blank">    <img src="https://img.shields.io/badge/Download the Android Build App-black?style=for-the-badge&logoColor=white&logo=expo&color=06B6D4" alt="nativewind" /></a>
+<a href="https://expo.dev/artifacts/eas/698pMzRgbYH1KnDDJY7bns.apk" target="_blank">    <img src="https://img.shields.io/badge/Download the Android Build App-black?style=for-the-badge&logoColor=white&logo=expo&color=2324D8" alt="Download the App" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -175,4 +178,4 @@ Contributions from the open-source community are welcome!
 Access the JSM website [here](https://jsmastery.po) <br />
 And the YouTube channel [here](https://www.youtube.com/@javascriptmastery)
 
-[Download the Android Build APK](https://expo.dev/artifacts/eas/mPL9JLmXALPbYd1QvVaWPz.apk)
+[Download the Android Build APK](https://expo.dev/artifacts/eas/698pMzRgbYH1KnDDJY7bns.apk)
